@@ -13,6 +13,7 @@ app = FastAPI()
 origins = [
     "http://localhost:3000",  # Next.jsのデフォルトポート
     "localhost:3000",
+    "https://youtube-comment-fe.vercel.app", # デプロイされたフロントエンドのURL
 ]
 
 app.add_middleware(
