@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+google-api-python-client
+spacy
+ginza
+ja-ginza
